@@ -1,0 +1,22 @@
+<head >
+<!-- 	<meta charset="utf-8" data-sly-use.head="head.js"> -->
+<!-- 	<title>${currentPage.title || currentPage.name}</title> -->
+<!-- 	<meta name="keywords" content="${head.keywords}"/> -->
+<!-- 	<meta name="description" content="${properties.jcr:description}"/> -->
+
+ <meta charset="utf-8">
+ <title>Qatar</title>
+    <meta name="description" content="A land that understands a traveller can never be a stranger, just a friend not yet met. That ultimately everyone is on their own journey, seeking the warmth of a friendly embrace, unique experiences, new stories to share.">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+    <link rel="shortcut icon" href="/content/dam/mydemo/images/qta-fav-icon.ico" type="image/x-icon" sizes="16x16">
+	
+	<!--/* Include the site client libraries (loading only the CSS in the header, JS will be loaded in the footer) */-->
+	<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.css @ categories='mydemo.qatar'}" data-sly-unwrap/>
+	
+	<!--/* Initializes the Experience Manager authoring UI */-->
+	<sly data-sly-include="/libs/wcm/core/components/init/init.jsp"/>
+	
+</head>

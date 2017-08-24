@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OsgiConfig"
+    mydemo.options.api="/bin/mydemo"
+    mydemo.aem.user.username="admin"
+    mydemo.aem.user.password="admin"
+    mydemo.data = "[en_SG,vi_VN,en_VN,fr_FR]"
+    
+    />

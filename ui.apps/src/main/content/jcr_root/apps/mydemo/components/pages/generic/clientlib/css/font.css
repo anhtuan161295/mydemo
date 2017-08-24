@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'qatar-bold';
+	src: url('../fonts/Qatar-Bold.woff2') format("woff2"),
+		url('../fonts/Qatar-Bold.woff') format("woff"),
+		url('../fonts/Qatar-Bold.eot') format("eot"),
+		url('../fonts/Qatar-Bold.ttf') format("truetype");
+}
+
+@font-face {
+	font-family: 'qatar-medium';
+	src: url('../fonts/Qatar-Medium.woff2') format("woff2"),
+		url('../fonts/Qatar-Medium.woff') format("woff"),
+		url('../fonts/Qatar-Medium.eot') format("eot"),
+		url('../fonts/Qatar-Medium.ttf') format("truetype");
+}
+
+@font-face {
+	font-family: 'qatar-regular';
+	src: url('../fonts/Qatar-Regular.woff2') format("woff2"),
+		url('../fonts/Qatar-Regular.woff') format("woff"),
+		url('../fonts/Qatar-Regular.eot') format("eot"),
+		url('../fonts/Qatar-Regular.ttf') format("truetype");
+}
+
+@font-face {
+	font-family: 'qatar-light';
+	src: url('../fonts/Qatar-Light.woff2') format("woff2"),
+		url('../fonts/Qatar-Light.woff') format("woff"),
+		url('../fonts/Qatar-Light.eot') format("eot"),
+		url('../fonts/Qatar-Light.ttf') format("truetype");
+}

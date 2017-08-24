@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="nt:unstructured">
+    <slice-of-life
+            jcr:primaryType="nt:unstructured"
+            text="Slice Of Life"
+            value="slice-of-life"/>
+    <health-story
+            jcr:primaryType="nt:unstructured"
+            text="Health Story"
+            value="health-story"/>
+    <rise
+            jcr:primaryType="nt:unstructured"
+            text="Rise"
+            value="rise"/>
+    <what-it-means
+            jcr:primaryType="nt:unstructured"
+            text="What It Means"
+            value="what-it-means"/>
+</jcr:root>

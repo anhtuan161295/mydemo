@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          xmlns:granite="http://www.adobe.com/jcr/granite/1.0"
+          jcr:primaryType="nt:unstructured"
+          jcr:title="Drop down show hide"
+          sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/foundation/container">
+        <layout
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"
+                margin="{Boolean}false"/>
+        <items jcr:primaryType="nt:unstructured">
+            <column
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/foundation/container">
+                <items jcr:primaryType="nt:unstructured">
+                    <background-style
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/form/select"
+                            fieldLabel="Background Style"
+                            name="./style"
+                            class="cq-dialog-dropdown-showhide"
+                            cq-dialog-dropdown-showhide-target=".back-ground-hide-show">
+                        <items jcr:primaryType="nt:unstructured">
+                            <image
+                                    jcr:primaryType="nt:unstructured"
+                                    text="Background Image"
+                                    value="image"/>
+                            <color
+                                    jcr:primaryType="nt:unstructured"
+                                    text="Background Color"
+                                    value="color"/>
+                        </items>
+                    </background-style>
+
+                    <bg-image
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/container"
+                            class="hide back-ground-hide-show"
+                            showhidetargetvalue="image">
+                        <layout jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/layouts/well"/>
+                        <items jcr:primaryType="nt:unstructured">
+                            <image
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                    fieldLabel="Background Image"
+                                    name="./image"/>
+
+                        </items>
+                    </bg-image>
+
+                    <bg-color
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/container"
+                            class="hide back-ground-hide-show"
+                            showhidetargetvalue="color">
+
+                        <layout jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/layouts/well"/>
+                        <items jcr:primaryType="nt:unstructured">
+                            <color
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/foundation/form/select"
+                                    fieldLabel="Background Color"
+                                    name="./color">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <white
+                                            jcr:primaryType="nt:unstructured"
+                                            text="White"
+                                            value="white"/>
+                                    <pineapple
+                                            jcr:primaryType="nt:unstructured"
+                                            text="Pineapple"
+                                            value="pineapple"/>
+                                    <tangerine
+                                            jcr:primaryType="nt:unstructured"
+                                            text="Tangerine"
+                                            value="tangerine"/>
+                                    <peapod
+                                            jcr:primaryType="nt:unstructured"
+                                            text="Peapod"
+                                            value="peapod"/>
+                                </items>
+                            </color>
+                        </items>
+                    </bg-color>
+
+                </items>
+            </column>
+        </items>
+    </content>
+</jcr:root>
